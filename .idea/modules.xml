@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TabHost/TabHost.iml" filepath="$PROJECT_DIR$/TabHost/TabHost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WechatTab/WechatTab.iml" filepath="$PROJECT_DIR$/WechatTab/WechatTab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-demos-master.iml" filepath="$PROJECT_DIR$/android-demos-master.iml" />
+    </modules>
+  </component>
+</project>

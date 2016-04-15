@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:layout_height="50dp">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/rl_tab1"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_alignParentTop="true"
+            android:id="@+id/iv_tab1"
+            android:src="@drawable/index"
+            android:layout_marginTop="5dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="首页"
+            android:id="@+id/tv_tab1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/rl_tab2"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:id="@+id/iv_tab2"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/magzine"
+            android:layout_marginTop="5dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="杂志"
+            android:id="@+id/tv_tab2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/rl_tab3"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:id="@+id/iv_tab3"
+            android:src="@drawable/picture"
+            android:layout_marginTop="5dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="新闻"
+            android:id="@+id/tv_tab3"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/rl_tab4"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@+id/iv_tab4"
+            android:layout_width="fill_parent"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/me"
+            android:layout_marginTop="5dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_tab4"
+            android:text="我"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>
