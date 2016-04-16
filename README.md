@@ -12,6 +12,7 @@
 
 
 ----------
-* 个人博客：http://fangjie.info/
+*原作者: 方杰
+* 博客：http://fangjie.info/
 * 作者:by[@方杰_Jay](http://weibo.com/ncuitstudent) 
 * 邮箱:JayFang1993@gmail.com
